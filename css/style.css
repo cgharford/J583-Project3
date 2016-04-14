@@ -24,39 +24,10 @@ This stylesheet and the associated (x)html may be modified in any way to fit you
     to {background-position:-10000px 5000px;}
 }
 
-.stars, .twinkling {
-  position:absolute;
-  top:0;
-  left:0;
-  right:0;
-  bottom:0;
-  width:100%;
-  height:70%;
-  display:block;
-  z-index: 2;
-}
-
-/*.stars {
-  background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
-  z-index:0;
-}
-
-.twinkling{
-  background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
-  z-index:1;
-
-  -moz-animation:move-twink-back 200s linear infinite;
-  -ms-animation:move-twink-back 200s linear infinite;
-  -o-animation:move-twink-back 200s linear infinite;
-  -webkit-animation:move-twink-back 200s linear infinite;
-  animation:move-twink-back 200s linear infinite;
-}*/
-
 body {
   margin: 0;
   font-size: 14px;
   font-family: "Helvetica Neue", Helvetica;
-  /*background: black;*/
   position:absolute;
   top:0;
   left:0;
@@ -65,9 +36,32 @@ body {
   width:100%;
   height:70%;
   display:block;
-  background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
   background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
   z-index:0;
+}
+
+#twinkling {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    width:100%;
+    display:block;
+    z-index: 2;
+    background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+    z-index:1;
+    -moz-animation:move-twink-back 200s linear infinite;
+    -ms-animation:move-twink-back 200s linear infinite;
+    -o-animation:move-twink-back 200s linear infinite;
+    -webkit-animation:move-twink-back 200s linear infinite;
+    animation:move-twink-back 200s linear infinite;
+    height:250%;
+}
+
+#wrapper {
+    position: absolute;
+    z-index: 4;
 }
 
 #header, #footer {
@@ -79,7 +73,7 @@ body {
 h1 {
   font-size: 3em;
   text-align: center;
-  color: #EDAD39;
+  color: #94090D;
   font-family:  serif;
   text-transform: uppercase;
 }
@@ -195,45 +189,45 @@ a:hover {
 }
 
 rect {
-  stroke: #E7E8E7;
+  stroke: #777;
   fill: #aaa;
   fill-opacity: .8;
 }
 
 rect:hover {
-  fill: #F2D6B3;
+  fill: #450003;
 }
 
 rect.level-0 {
-  fill: #82560C;
+  fill: #5C0002;
 }
 
 rect.level-0:hover {
-  fill: #F2D6B3;
+  fill: #450003;
 }
 
 rect.level-1 {
-  fill: #B9831C;
+  fill: #94090D;
 }
 
 rect.level-1:hover {
-  fill: #F2D6B3;
+  fill: #450003;
 }
 
 rect.level-2 {
-  fill: #EDAD39;
+  fill: #D40D12;
 }
 
 rect.level-2:hover {
-  fill: #F2D6B3;
+  fill: #450003;
 }
 
 rect.level-3 {
-  fill: #FFC629;
+  fill: #FF1D23;
 }
 
 rect.level-3:hover {
-  fill: #F2D6B3;
+  fill: #94090D;
 }
 
 g.level-0 {
@@ -274,5 +268,5 @@ text {
 }
 
 .footer-link:hover {
-    color: #EDAD39;
+    color: #94090D;
 }
