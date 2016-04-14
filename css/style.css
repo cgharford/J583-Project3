@@ -1,7 +1,73 @@
+/*twinkling star effects*/
+/* ==============================================================================================
+This copyright notice must be kept untouched in the stylesheet at all times.
+The original version of this stylesheet and the associated (x)html
+is available at http://www.script-tutorials.com/night-sky-with-twinkling-stars/
+Copyright (c) Script Tutorials. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any way to fit your requirements.
+================================================================================================= */
+
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+.stars, .twinkling {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:70%;
+  display:block;
+  z-index: 2;
+}
+
+/*.stars {
+  background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  z-index:0;
+}
+
+.twinkling{
+  background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+  z-index:1;
+
+  -moz-animation:move-twink-back 200s linear infinite;
+  -ms-animation:move-twink-back 200s linear infinite;
+  -o-animation:move-twink-back 200s linear infinite;
+  -webkit-animation:move-twink-back 200s linear infinite;
+  animation:move-twink-back 200s linear infinite;
+}*/
+
 body {
   margin: 0;
   font-size: 14px;
   font-family: "Helvetica Neue", Helvetica;
+  /*background: black;*/
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:70%;
+  display:block;
+  background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+  background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  z-index:0;
 }
 
 #header, #footer {
@@ -13,10 +79,11 @@ body {
 h1 {
   font-size: 3em;
   text-align: center;
-  color: #BFAA8F;
+  color: #EDAD39;
   font-family:  serif;
   text-transform: uppercase;
 }
+
 .embiggen {
   font-size: 4em;
   text-shadow: 0 0 40px #ffbab3;
@@ -37,15 +104,15 @@ article {
 .fancy span {
   display: inline-block;
   position: relative;
-  color: #777;
+  color: #ccc;
 }
 .fancy span:before,
 .fancy span:after {
   content: "";
   position: absolute;
   height: 5px;
-  border-bottom: 1px solid #ccc;
-  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #555;
+  border-top: 1px solid #555;
   top: 0;
   width: 1000px;
   overflow: hidden;
@@ -60,7 +127,7 @@ article {
 }
 
 .instructions {
-    color: #4A678C;
+    color: #777;
     font-family: "Helvetica";
     font-size: 20px;
     text-align: left;
@@ -128,7 +195,7 @@ a:hover {
 }
 
 rect {
-  stroke: #eee;
+  stroke: #E7E8E7;
   fill: #aaa;
   fill-opacity: .8;
 }
@@ -138,7 +205,7 @@ rect:hover {
 }
 
 rect.level-0 {
-  fill: #4A678C;
+  fill: #82560C;
 }
 
 rect.level-0:hover {
@@ -146,7 +213,7 @@ rect.level-0:hover {
 }
 
 rect.level-1 {
-  fill: #7289A6;
+  fill: #B9831C;
 }
 
 rect.level-1:hover {
@@ -154,7 +221,7 @@ rect.level-1:hover {
 }
 
 rect.level-2 {
-  fill: #A3AFBF;
+  fill: #EDAD39;
 }
 
 rect.level-2:hover {
@@ -162,7 +229,7 @@ rect.level-2:hover {
 }
 
 rect.level-3 {
-  fill: #;
+  fill: #FFC629;
 }
 
 rect.level-3:hover {
@@ -170,27 +237,27 @@ rect.level-3:hover {
 }
 
 g.level-0 {
-  fill: white;
+  fill: #E7E8E7;
   font-size: 45px;
   font-weight: 300;
-  text-shadow: 0 1px 0 #fff;
+  text-shadow: 0 1px 0 #E7E8E7;
 }
 
 g.level-1 {
-  fill: white;
+  fill: #E7E8E7;
   font-size: 20px;
   font-weight: 300;
-  text-shadow: 0 1px 0 #fff;
+  text-shadow: 0 1px 0 #E7E8E7;
 }
 
 g.level-2 {
-  fill: white;
+  fill: #E7E8E7;
   font-size: 13px;
   font-weight: 400;
 }
 
 g.level-3 {
-  fill: white;
+  fill: #E7E8E7;
   font-size: 10px;
 }
 
@@ -198,6 +265,14 @@ text {
   pointer-events: none;
 }
 
+.footer-link {
+    color: white;
+}
+
+.footer-link:link, .footer-link:visited {
+    color: #ccc;
+}
+
 .footer-link:hover {
-    color: #7289A6;
+    color: #EDAD39;
 }
