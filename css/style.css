@@ -1,0 +1,203 @@
+body {
+  margin: 0;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica;
+}
+
+#header, #footer {
+    padding-top: 4em;
+    margin: 0px 80px;
+    overflow: hidden;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  color: #BFAA8F;
+  font-family:  serif;
+  text-transform: uppercase;
+}
+.embiggen {
+  font-size: 4em;
+  text-shadow: 0 0 40px #ffbab3;
+}
+article {
+  max-width: 600px;
+  overflow: hidden;
+  margin: 0 auto 50px;
+}
+
+.subtitle {
+  margin: 0 0 2em 0;
+}
+.fancy {
+  line-height: 0.5;
+  text-align: center;
+}
+.fancy span {
+  display: inline-block;
+  position: relative;
+  color: #777;
+}
+.fancy span:before,
+.fancy span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  top: 0;
+  width: 1000px;
+  overflow: hidden;
+}
+.fancy span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.fancy span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+.instructions {
+    color: #4A678C;
+    font-family: "Helvetica";
+    font-size: 20px;
+    text-align: left;
+    margin: 30px 200px;
+    font-weight: 200;
+}
+
+rect {
+  fill: none;
+  pointer-events: all;
+}
+
+pre {
+  font-size: 18px;
+}
+
+line {
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+.string, .regexp {
+  color: #f39;
+}
+
+.keyword {
+  color: #00c;
+}
+
+.comment {
+  color: #777;
+  font-style: oblique;
+}
+
+.number {
+  color: #369;
+}
+
+.class, .special {
+  color: #1181B8;
+}
+
+a:link, a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #666;
+}
+
+.hint {
+  position: absolute;
+  right: 0;
+  width: 1280px;
+  font-size: 12px;
+  color: #999;
+}
+
+.chart {
+  display: block;
+  font-size: 11px;
+  margin: 60px 80px 0px 80px;
+  cursor: pointer;
+}
+
+rect {
+  stroke: #eee;
+  fill: #aaa;
+  fill-opacity: .8;
+}
+
+rect:hover {
+  fill: #F2D6B3;
+}
+
+rect.level-0 {
+  fill: #4A678C;
+}
+
+rect.level-0:hover {
+  fill: #F2D6B3;
+}
+
+rect.level-1 {
+  fill: #7289A6;
+}
+
+rect.level-1:hover {
+  fill: #F2D6B3;
+}
+
+rect.level-2 {
+  fill: #A3AFBF;
+}
+
+rect.level-2:hover {
+  fill: #F2D6B3;
+}
+
+rect.level-3 {
+  fill: #;
+}
+
+rect.level-3:hover {
+  fill: #F2D6B3;
+}
+
+g.level-0 {
+  fill: white;
+  font-size: 45px;
+  font-weight: 300;
+  text-shadow: 0 1px 0 #fff;
+}
+
+g.level-1 {
+  fill: white;
+  font-size: 20px;
+  font-weight: 300;
+  text-shadow: 0 1px 0 #fff;
+}
+
+g.level-2 {
+  fill: white;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+g.level-3 {
+  fill: white;
+  font-size: 10px;
+}
+
+text {
+  pointer-events: none;
+}
+
+.footer-link:hover {
+    color: #7289A6;
+}

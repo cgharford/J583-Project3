@@ -1,0 +1,610 @@
+{
+ "name": "Resolutions",
+ "level": 0,
+ "children": [
+     {
+        "name": "Health & Fitness",
+        "level": 1,
+        "children": [
+            {
+                "name": "Lose weight",
+                "level": 2,
+                "children": [
+                    {"name": "Female", "level": 3, "size": 2},
+                    {"name": "Male", "level": 3, "level": 3, "size": 0}
+                ]
+            },
+            {
+                "name": "Eat healthier",
+                "level": 2,
+                "children": [
+                    {"name": "Female", "level": 3, "size": 3},
+                    {"name": "Male", "level": 3, "size": 3}
+                ]
+            },
+            {
+                "name": "Quit smoking",
+                "level": 2,
+                "children": [
+                    {"name": "Female", "level": 3, "size": 1},
+                    {"name": "Male", "level": 3, "size": 4}
+                ]
+            },
+            {
+                "name": "Go to the gym more",
+                "level": 2,
+                "children": [
+                    {"name": "Female", "level": 3, "size": 0},
+                    {"name": "Male", "level": 3, "size": 5}
+                ]
+            },
+            {
+                "name": "Other",
+                "level": 2,
+                "children": [
+                    {"name": "Female", "level": 3, "size": 0},
+                    {"name": "Male", "level": 3, "size": 2}
+                ]
+            },
+            {
+                "name": "Drink Less Caffine",
+                "level": 2,
+                "children": [
+                    {"name": "Female", "level": 3, "size": 2},
+                    {"name": "Male", "level": 3, "size": 0}
+                ]
+            },
+            {
+                "name": "Improve my body",
+                "level": 2,
+                "children": [
+                    {"name": "Female", "level": 3, "size": 2},
+                    {"name": "Male", "level": 3, "size": 1}
+                ]
+            },
+            {
+                "name": "Go gluten free",
+                "level": 2,
+                "children": [
+                    {"name": "Female", "level": 3, "size": 0},
+                    {"name": "Male", "level": 3, "size": 1}
+                ]
+            },
+            {
+                "name": "Eat Less Sugar",
+                "level": 2,
+                "children": [
+                    {"name": "Female", "level": 3, "size": 0},
+                    {"name": "Male", "level": 3, "size": 1}
+                ]
+            },
+            {
+                "name": "Excersize More",
+                "level": 2,
+                "children": [
+                    {"name": "Female", "level": 3, "size": 0},
+                    {"name": "Male", "level": 3, "size": 1}
+                ]
+            }
+        ]
+    },
+    {
+       "name": "Humor",
+       "level": 1,
+       "children": [
+           {
+               "name": "Humor about Personal Growth and Interests Resolutions",
+               "level": 2,
+               "children": [
+                   {"name": "Female", "level": 3, "size": 1},
+                   {"name": "Male", "level": 3, "size": 6}
+               ]
+           },
+           {
+               "name": "Humor about Career Resolutions",
+               "level": 2,
+               "children": [
+                   {"name": "Female", "level": 3, "size": 0},
+                   {"name": "Male", "level": 3, "size": 1}
+               ]
+           },
+           {
+               "name": "Humor about New Years",
+               "level": 2,
+               "children": [
+                   {"name": "Female", "level": 3, "size": 1},
+                   {"name": "Male", "level": 3, "size": 3}
+               ]
+           },
+           {
+               "name": "Humor about not Resolutions in general",
+               "level": 2,
+               "children": [
+                   {"name": "Female", "level": 3, "size": 0},
+                   {"name": "Male", "level": 3, "size": 2}
+               ]
+           },
+           {
+               "name": "Humor about not Keeping Resolutions",
+               "level": 2,
+               "children": [
+                   {"name": "Female", "level": 3, "size": 0},
+                   {"name": "Male", "level": 3, "size": 2}
+               ]
+           },
+           {
+               "name": "Humor about Family/Friends/Relationships Resolutions",
+               "level": 2,
+               "children": [
+                   {"name": "Female", "level": 3, "size": 2},
+                   {"name": "Male", "level": 3, "size": 1}
+               ]
+           },
+           {
+               "name": "Humor about Recreation and Leisure Resolutions",
+               "level": 2,
+               "children": [
+                   {"name": "Female", "level": 3, "size": 0},
+                   {"name": "Male", "level": 3, "size": 2}
+               ]
+           },
+           {
+               "name": "Humor about language\nwords",
+               "level": 2,
+               "children": [
+                   {"name": "Female", "level": 3, "size": 0},
+                   {"name": "Male", "level": 3, "size": 1}
+               ]
+           },
+           {
+               "name": "Humor about Health and Fitness Resolutions",
+               "level": 2,
+               "children": [
+                   {"name": "Female", "level": 3, "size": 2},
+                   {"name": "Male", "level": 3, "size": 5}
+               ]
+           },
+           {
+               "name": "Humor about Finance Resolutions",
+               "level": 2,
+               "children": [
+                   {"name": "Female", "level": 3, "size": 0},
+                   {"name": "Male", "level": 3, "size": 3}
+               ]
+           },
+           {
+               "name": "Other",
+               "level": 2,
+               "children": [
+                   {"name": "Female", "level": 3, "size": 0},
+                   {"name": "Male", "level": 3, "size": 2}
+               ]
+           },
+           {
+               "name": "Humor about Finance Resolutions",
+               "level": 2,
+               "children": [
+                   {"name": "Female", "level": 3, "size": 0},
+                   {"name": "Male", "level": 3, "size": 3}
+               ]
+           }
+       ]
+   },
+   {
+      "name": "Personal Growth",
+      "level": 1,
+      "children": [
+          {
+              "name": "Be More Confident",
+              "level": 2,
+              "children": [
+                  {"name": "Female", "level": 3, "size": 0},
+                  {"name": "Male", "level": 3, "size": 1}
+              ]
+          },
+          {
+              "name": "Be more positive",
+              "level": 2,
+              "children": [
+                  {"name": "Female", "level": 3, "size": 16},
+                  {"name": "Male", "level": 3, "size": 8}
+              ]
+          },
+          {
+              "name": "Try new things",
+              "level": 2,
+              "children": [
+                  {"name": "Female", "level": 3, "size": 1},
+                  {"name": "Male", "level": 3, "size": 1}
+              ]
+          },
+          {
+              "name": "Focus on my self",
+              "level": 2,
+              "children": [
+                  {"name": "Female", "level": 3, "size": 0},
+                  {"name": "Male", "level": 3, "size": 3}
+              ]
+          },
+          {
+              "name": "Focus on Religion and Faith",
+              "level": 2,
+              "children": [
+                  {"name": "Female", "level": 3, "size": 4},
+                  {"name": "Male", "level": 3, "size": 1}
+              ]
+          },
+          {
+              "name": "Curse less",
+              "level": 2,
+              "children": [
+                  {"name": "Female", "level": 3, "size": 1},
+                  {"name": "Male", "level": 3, "size": 0}
+              ]
+          },
+          {
+              "name": "Other",
+              "level": 2,
+              "children": [
+                  {"name": "Female", "level": 3, "size": 1},
+                  {"name": "Male", "level": 3, "size": 3}
+              ]
+          },
+          {
+              "name": "Get my life together",
+              "level": 2,
+              "children": [
+                  {"name": "Female", "level": 3, "size": 1},
+                  {"name": "Male", "level": 3, "size": 1}
+              ]
+          },
+          {
+              "name": "Spend less time on Facebook",
+              "level": 2,
+              "children": [
+                  {"name": "Female", "level": 3, "size": 1},
+                  {"name": "Male", "level": 3, "size": 1}
+              ]
+          },
+          {
+              "name": "Focus on My Future",
+              "level": 2,
+              "children": [
+                  {"name": "Female", "level": 3, "size": 1},
+                  {"name": "Male", "level": 3, "size": 1}
+              ]
+          },
+          {
+              "name": "Be more friendly",
+              "level": 2,
+              "children": [
+                  {"name": "Female", "level": 3, "size": 0},
+                  {"name": "Male", "level": 3, "size": 1}
+              ]
+          },
+          {
+              "name": "Make better decisions",
+              "level": 2,
+              "children": [
+                  {"name": "Female", "level": 3, "size": 1},
+                  {"name": "Male", "level": 3, "size": 2}
+              ]
+          },
+          {
+              "name": "Improve my attitude",
+              "level": 2,
+              "children": [
+                  {"name": "Female", "level": 3, "size": 1},
+                  {"name": "Male", "level": 3, "size": 5}
+              ]
+          },
+          {
+              "name": "Improve my appearance",
+              "level": 2,
+              "children": [
+                  {"name": "Female", "level": 3, "size": 4},
+                  {"name": "Male", "level": 3, "size": 0}
+              ]
+          },
+          {
+              "name": "Be More Fun",
+              "level": 2,
+              "children": [
+                  {"name": "Female", "level": 3, "size": 1},
+                  {"name": "Male", "level": 3, "size": 0}
+              ]
+          },
+          {
+              "name": "Have more patience",
+              "level": 2,
+              "children": [
+                  {"name": "Female", "level": 3, "size": 2},
+                  {"name": "Male", "level": 3, "size": 0}
+              ]
+          }
+      ]
+  },
+  {
+     "name": "Philanthropic",
+     "level": 1,
+     "children": [
+         {
+             "name": "Other",
+             "level": 2,
+             "children": [
+                 {"name": "Female", "level": 3, "size": 0},
+                 {"name": "Male", "level": 3, "size": 1}
+             ]
+         },
+         {
+             "name": "Volunteer more",
+             "level": 2,
+             "children": [
+                 {"name": "Female", "level": 3, "size": 0},
+                 {"name": "Male", "level": 3, "size": 3}
+             ]
+         },
+         {
+             "name": "Find a charity to support",
+             "level": 2,
+             "children": [
+                 {"name": "Female", "level": 3, "size": 0},
+                 {"name": "Male", "level": 3, "size": 2}
+             ]
+         },
+         {
+             "name": "Spread Peace",
+             "level": 2,
+             "children": [
+                 {"name": "Female", "level": 3, "size": 0},
+                 {"name": "Male", "level": 3, "size": 1}
+             ]
+         }
+        ]
+    },
+    {
+       "name": "Recreation & Leisure",
+       "level": 1,
+       "children": [
+           {
+               "name": "Take a cross country trip",
+               "level": 2,
+               "children": [
+                   {"name": "Female", "level": 3, "size": 0},
+                   {"name": "Male", "level": 3, "size": 1}
+               ]
+           },
+           {
+               "name": "Other",
+               "level": 2,
+               "children": [
+                   {"name": "Female", "level": 3, "size": 4},
+                   {"name": "Male", "level": 3, "size": 3}
+               ]
+           },
+           {
+               "name": "Spend more time on my hobby",
+               "level": 2,
+               "children": [
+                   {"name": "Female", "level": 3, "size": 3},
+                   {"name": "Male", "level": 3, "size": 2}
+               ]
+           },
+           {
+               "name": "Take a trip",
+               "level": 2,
+               "children": [
+                   {"name": "Female", "level": 3, "size": 1},
+                   {"name": "Male", "level": 3, "size": 1}
+               ]
+           },
+           {
+               "name": "Spend more time outside",
+               "level": 2,
+               "children": [
+                   {"name": "Female", "level": 3, "size": 1},
+                   {"name": "Male", "level": 3, "size": 0}
+               ]
+           },
+           {
+               "name": "See a Concert/Show",
+               "level": 2,
+               "children": [
+                   {"name": "Female", "level": 3, "size": 0},
+                   {"name": "Male", "level": 3, "size": 1}
+               ]
+           },
+           {
+               "name": "Take more vacation",
+               "level": 2,
+               "children": [
+                   {"name": "Female", "level": 3, "size": 0},
+                   {"name": "Male", "level": 3, "size": 1}
+               ]
+           },
+           {
+               "name": "Hike more",
+               "level": 2,
+               "children": [
+                   {"name": "Female", "level": 3, "size": 1},
+                   {"name": "Male", "level": 3, "size": 0}
+               ]
+           }
+          ]
+      },
+      {
+         "name": "Family/Friends/Relationships",
+         "level": 1,
+         "children": [
+             {
+                 "name": "Find a Girlfriend",
+                 "level": 2,
+                 "children": [
+                     {"name": "Female", "level": 3, "size": 2},
+                     {"name": "Male", "level": 3, "size": 1}
+                 ]
+             },
+             {
+                 "name": "Make new friends",
+                 "level": 2,
+                 "children": [
+                     {"name": "Female", "level": 3, "size": 2},
+                     {"name": "Male", "level": 3, "size": 1}
+                 ]
+             },
+             {
+                 "name": "Make more time for friends",
+                 "level": 2,
+                 "children": [
+                     {"name": "Female", "level": 3, "size": 1},
+                     {"name": "Male", "level": 3, "size": 1}
+                 ]
+             },
+             {
+                 "name": "Spend more time with significant other",
+                 "level": 2,
+                 "children": [
+                     {"name": "Female", "level": 3, "size": 0},
+                     {"name": "Male", "level": 3, "size": 1}
+                 ]
+             },
+             {
+                 "name": "Other",
+                 "level": 2,
+                 "children": [
+                     {"name": "Female", "level": 3, "size": 2},
+                     {"name": "Male", "level": 3, "size": 0}
+                 ]
+             },
+             {
+                 "name": "Be better at keeping in touch with loved ones or friends",
+                 "level": 2,
+                 "children": [
+                     {"name": "Female", "level": 3, "size": 1},
+                     {"name": "Male", "level": 3, "size": 0}
+                 ]
+             },
+             {
+                 "name": "Spend more time with family",
+                 "level": 2,
+                 "children": [
+                     {"name": "Female", "level": 3, "size": 0},
+                     {"name": "Male", "level": 3, "size": 1}
+                 ]
+             },
+             {
+                 "name": "Have a baby",
+                 "level": 2,
+                 "children": [
+                     {"name": "Female", "level": 3, "size": 0},
+                     {"name": "Male", "level": 3, "size": 1}
+                 ]
+             }
+        ]
+    },
+    {
+       "name": "Career",
+       "level": 1,
+       "children": [
+           {
+               "name": "Other",
+               "level": 2,
+               "children": [
+                   {"name": "Female", "level": 3, "size": 2},
+                   {"name": "Male", "level": 3, "size": 1}
+               ]
+           },
+           {
+               "name": "Get dream job",
+               "level": 2,
+               "children": [
+                   {"name": "Female", "level": 3, "size": 1},
+                   {"name": "Male", "level": 3, "size": 0}
+               ]
+           },
+           {
+               "name": "Get a new job",
+               "level": 2,
+               "children": [
+                   {"name": "Female", "level": 3, "size": 1},
+                   {"name": "Male", "level": 3, "size": 2}
+               ]
+           },
+           {
+               "name": "Ask for a promotion",
+               "level": 2,
+               "children": [
+                   {"name": "Female", "level": 3, "size": 0},
+                   {"name": "Male", "level": 3, "size": 1}
+               ]
+           }
+          ]
+      },
+      {
+         "name": "Finance",
+         "level": 1,
+         "children": [
+             {
+                 "name": "Other",
+                 "level": 2,
+                 "children": [
+                     {"name": "Female", "level": 3, "size": 1},
+                     {"name": "Male", "level": 3, "size": 0}
+                 ]
+             },
+             {
+                 "name": "Save money",
+                 "level": 2,
+                 "children": [
+                     {"name": "Female", "level": 3, "size": 1},
+                     {"name": "Male", "level": 3, "size": 1}
+                 ]
+             }
+            ]
+        },
+    {
+       "name": "Education/Training",
+       "level": 1,
+       "children": [
+           {
+               "name": "Learn to play an instrument",
+               "level": 2,
+               "children": [
+                   {"name": "Female", "level": 3, "size": 0},
+                   {"name": "Male", "level": 3, "size": 1}
+               ]
+           },
+           {
+               "name": "Learn a new skill",
+               "level": 2,
+               "children": [
+                   {"name": "Female", "level": 3, "size": 0},
+                   {"name": "Male", "level": 3, "size": 1}
+               ]
+           },
+           {
+               "name": "Learn a new language",
+               "level": 2,
+               "children": [
+                   {"name": "Female", "level": 3, "size": 1},
+                   {"name": "Male", "level": 3, "size": 0}
+               ]
+           }
+       ]
+    },
+    {
+     "name": "Time Management/Organization",
+     "level": 1,
+     "children": [
+         {
+             "name": "Learn better time management practices",
+             "level": 2,
+             "children": [
+                 {"name": "Female", "level": 3, "size": 0},
+                 {"name": "Male", "level": 3, "size": 1}
+             ]
+         }
+        ]
+    }
+ ]
+}
