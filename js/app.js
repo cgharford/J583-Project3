@@ -1,7 +1,9 @@
+// When the window loads, load the infographic
 $(window).load(function() {
     loadInfographic();
 });
 
+// When the window resizes, reload the infographic
 $(window).resize(function() {
     loadInfographic();
 });
@@ -29,24 +31,25 @@ function loadInfographic() {
 
     // Loads json file and creates an svg full of rectangles and text boxes
     d3.json("resolutions.json", function(root) {
-      var g = vis.selectAll("g")
-          .data(partition.nodes(root))
-          .enter().append("svg:g")
-          .attr("transform", function(d) { return "translate(" + x(d.y) + "," + y(d.x) + ")"; })
-          .attr("class", function(d) {
+        var g = vis.selectAll("g")
+            .data(partition.nodes(root))
+            .enter().append("svg:g")
+            .attr("transform", function(d) { return "translate(" + x(d.y) + "," + y(d.x) + ")"; })
+            .attr("class", function(d) {
               var c = "";
               c +=  "text-level-" + d.level + " "  + "true-level-" + d.level;
               return c;
-          })
-          .on("click", click);
+            })
+            .on("click", click);
 
-    var level0FontSize = $(".text-level-0").css("font-size");
-    var level1FontSize = $(".text-level-1").css("font-size");
-    var level2FontSize = $(".text-level-2").css("font-size");
-    var level3FontSize = $(".text-level-3").css("font-size");
+        // Get the font sizes for all the svg levels so that they can be changed later
+        var level0FontSize = $(".text-level-0").css("font-size");
+        var level1FontSize = $(".text-level-1").css("font-size");
+        var level2FontSize = $(".text-level-2").css("font-size");
+        var level3FontSize = $(".text-level-3").css("font-size");
 
-    var kx = w / root.dx,
-        ky = h / 1;
+        var kx = w / root.dx,
+            ky = h / 1;
 
         // Append all the rectangles corresponding to the datapoints
         g.append("svg:rect")
@@ -56,18 +59,22 @@ function loadInfographic() {
                 return "level-" + d.level;
             });
 
+        // Append the titles to the boxes
         g.append("svg:text")
             .attr("transform", transform)
             .attr("dy", ".35em")
             .style("opacity", function(d) { return d.dx * ky > 12 ? 1 : 0; })
             .text(function(d) { return d.name; })
 
+        // When a rectangle is selected, go to click function
         d3.select(window)
             .on("click", function() { click(root); })
 
+        // Zoom in or out when rectangles are clicked
         function click(d) {
             if (!d.children) return;
             var seconds = 700;
+            // Change the font sizes for all the rectangles when zooming in and out
             switch (d.level) {
                 case 0:
                     $(".true-level-1").animate({"font-size":level1FontSize}, seconds);
@@ -90,12 +97,12 @@ function loadInfographic() {
                     $(".true-level-3").animate({"font-size":level2FontSize}, seconds);
                     break;
             }
-
             kx = (d.y ? w - 40 : w) / (1 - d.y);
             ky = h / d.dx;
             x.domain([d.y, 1]).range([d.y ? 40 : 0, w]);
             y.domain([d.x, d.x + d.dx]);
 
+            // Animate boxes to zoom in and out
             var t = g.transition()
                 .duration(d3.event.altKey ? 7500 : 750)
                 .attr("transform", function(d) { return "translate(" + x(d.y) + "," + y(d.x) + ")"; });
