@@ -14,7 +14,6 @@ function loadInfographic() {
         h = 600,
         x = d3.scale.linear().range([0, w]),
         y = d3.scale.linear().range([0, h]);
-        console.log(w);
 
     // Inserts into the page
     $("#content").empty();
