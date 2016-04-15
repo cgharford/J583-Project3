@@ -1,28 +1,7 @@
-/*twinkling star effects*/
-/* ==============================================================================================
-This copyright notice must be kept untouched in the stylesheet at all times.
-The original version of this stylesheet and the associated (x)html
-is available at http://www.script-tutorials.com/night-sky-with-twinkling-stars/
+/* Twinkling star effects are not my own; they are available at
+http://www.script-tutorials.com/night-sky-with-twinkling-stars/
 Copyright (c) Script Tutorials. All rights reserved.
-This stylesheet and the associated (x)html may be modified in any way to fit your requirements.
-================================================================================================= */
-
-@keyframes move-twink-back {
-    from {background-position:0 0;}
-    to {background-position:-10000px 5000px;}
-}
-@-webkit-keyframes move-twink-back {
-    from {background-position:0 0;}
-    to {background-position:-10000px 5000px;}
-}
-@-moz-keyframes move-twink-back {
-    from {background-position:0 0;}
-    to {background-position:-10000px 5000px;}
-}
-@-ms-keyframes move-twink-back {
-    from {background-position:0 0;}
-    to {background-position:-10000px 5000px;}
-}
+ */
 
 body {
   margin: 0;
@@ -36,27 +15,7 @@ body {
   width:100%;
   height:70%;
   display:block;
-  background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
   z-index:0;
-}
-
-#twinkling {
-    position:absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    width:100%;
-    display:block;
-    z-index: 2;
-    background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
-    z-index:1;
-    -moz-animation:move-twink-back 200s linear infinite;
-    -ms-animation:move-twink-back 200s linear infinite;
-    -o-animation:move-twink-back 200s linear infinite;
-    -webkit-animation:move-twink-back 200s linear infinite;
-    animation:move-twink-back 200s linear infinite;
-    height:250%;
 }
 
 #wrapper {
@@ -73,7 +32,7 @@ body {
 h1 {
   font-size: 3em;
   text-align: center;
-  color: #94090D;
+  color: #4EC5C1;
   font-family:  serif;
   text-transform: uppercase;
 }
@@ -98,15 +57,15 @@ article {
 .fancy span {
   display: inline-block;
   position: relative;
-  color: #ccc;
+  color: #777;
 }
 .fancy span:before,
 .fancy span:after {
   content: "";
   position: absolute;
   height: 5px;
-  border-bottom: 1px solid #555;
-  border-top: 1px solid #555;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
   top: 0;
   width: 1000px;
   overflow: hidden;
@@ -121,7 +80,7 @@ article {
 }
 
 .instructions {
-    color: #777;
+    color: #EC576B;
     font-family: "Helvetica";
     font-size: 20px;
     text-align: left;
@@ -189,69 +148,65 @@ a:hover {
 }
 
 rect {
-  stroke: #777;
+  stroke: white;
   fill: #aaa;
   fill-opacity: .8;
 }
 
-rect:hover {
-  fill: #450003;
-}
-
 rect.level-0 {
-  fill: #5C0002;
+  fill: #777;
 }
 
 rect.level-0:hover {
-  fill: #450003;
+  fill: #bbb;
 }
 
 rect.level-1 {
-  fill: #94090D;
+  fill: #EC576B;
 }
 
 rect.level-1:hover {
-  fill: #450003;
+  fill: #bbb;
 }
 
 rect.level-2 {
-  fill: #D40D12;
+  fill: #4EC5C1;
 }
 
 rect.level-2:hover {
-  fill: #450003;
+  fill: #bbb;
 }
 
 rect.level-3 {
-  fill: #FF1D23;
+  fill: #E5E338;
 }
 
 rect.level-3:hover {
-  fill: #94090D;
+  fill: #bbb;
 }
 
-g.level-0 {
-  fill: #E7E8E7;
+g.text-level-0 {
+  fill: white;
   font-size: 45px;
   font-weight: 300;
-  text-shadow: 0 1px 0 #E7E8E7;
+  text-shadow: 0 1px 0 white;
 }
 
-g.level-1 {
-  fill: #E7E8E7;
+g.text-level-1 {
+  fill: white;
   font-size: 20px;
   font-weight: 300;
-  text-shadow: 0 1px 0 #E7E8E7;
+  text-shadow: 0 1px 0 white;
 }
 
-g.level-2 {
-  fill: #E7E8E7;
+g.text-level-2 {
+  fill: white;
   font-size: 13px;
   font-weight: 400;
 }
 
-g.level-3 {
-  fill: #E7E8E7;
+g.text-level-3 {
+  fill: white;
   font-size: 10px;
 }
 
@@ -264,9 +219,14 @@ text {
 }
 
 .footer-link:link, .footer-link:visited {
-    color: #ccc;
+    color: #EC576B;
 }
 
 .footer-link:hover {
-    color: #94090D;
+    color: #ccc;
+}
+
+.footer-icon {
+    color: #EC576B;
+    padding: 0em 7px;
 }
