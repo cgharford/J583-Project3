@@ -33,7 +33,7 @@ h1 {
   font-size: 3em;
   text-align: center;
   color: #4EC5C1;
-  font-family:  serif;
+  font-family: 'Inknut Antiqua', serif;
   text-transform: uppercase;
 }
 
@@ -86,6 +86,7 @@ article {
     text-align: left;
     margin: 30px 200px;
     font-weight: 200;
+    line-height: 150%;
 }
 
 rect {
